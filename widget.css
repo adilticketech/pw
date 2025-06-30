@@ -1,9 +1,14 @@
 /*
- * This CSS rule targets the specific div with the class 'event-title'
- * and sets its display property to 'none', effectively hiding it from the layout.
- * The '!important' flag is used to ensure this rule overrides any default styles
- * applied by the ParkWhiz widget.
+ * This CSS rule now targets the div element with the class 'event-and-time-details'.
+ * Setting 'display: none' will completely remove it from the visual layout,
+ * making the title (and potentially the time, if it's within the same div)
+ * invisible and ensuring it doesn't take up any space.
+ * The '!important' flag is added to ensure this rule overrides any default
+ * styling that the ParkWhiz widget might apply to this element.
  */
-div.event-time-and-details {
+div.event-and-time-details {
+  display: none !important;
+}
+div.event-title {
   display: none !important;
 }
