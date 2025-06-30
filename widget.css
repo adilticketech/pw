@@ -4,6 +4,6 @@
  * The '!important' flag is used to ensure this rule overrides any default styles
  * applied by the ParkWhiz widget.
  */
-div.event-title {
+div.event-time-and-details {
   display: none !important;
 }
